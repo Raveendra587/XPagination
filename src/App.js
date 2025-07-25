@@ -67,7 +67,7 @@ function App() {
       </table>
 
       <div className="pagination">
-        <button onClick={goToPrevious} disabled={currentPage === 1}>
+        <button onClick={goToPrevious}>
           Previous
         </button>
         <button>{currentPage}</button>
